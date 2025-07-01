@@ -10,7 +10,7 @@ body {
 }
 
 #rewardSection {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgb(255, 255, 255);
     border: 2px solid #00adb5;
     box-shadow: 0 0 20px rgba(0, 173, 181, 0.5);
     border-radius: 15px;
@@ -28,15 +28,12 @@ body {
 #rewardText {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #f8f8f8;
-    text-shadow: 1px 1px 5px #000;
+    color: black;
 }
 
 #rewardImage {
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 0 15px #00adb5;
-    border: 2px solid #00fff5;
 }
 
 button {

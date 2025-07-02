@@ -1,6 +1,8 @@
 body {
+    width: 100vw;
     font-family: 'Kanit', sans-serif;
-    background: radial-gradient(circle, #1b1b2f, #162447);
+    background-image: url('/assets/BG.png');
+    background-size: cover;  
     color: #fff;
     display: flex;
     justify-content: center;
@@ -10,9 +12,8 @@ body {
 }
 
 #rewardSection {
-    background: rgb(255, 255, 255);
+    background: #C3EEFA;
     border: 2px solid #00adb5;
-    box-shadow: 0 0 20px rgba(0, 173, 181, 0.5);
     border-radius: 15px;
     padding: 30px;
     text-align: center;
@@ -54,3 +55,10 @@ button:hover {
     box-shadow: 0 4px 20px rgba(0, 255, 255, 0.5);
     transform: scale(1.05);
 }
+
+/* @media screen and (max-width: 992px) {  
+    
+}
+@media screen and (max-width: 576px) {
+
+} */

@@ -57,8 +57,19 @@ button:hover {
 }
 
 @media screen and (max-width: 992px) {  
+    .main {
+        display: flex;
+        justify-content: center;
+    }
     #rewardSection {
         width: 90%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 476px) {  
+    #rewardSection {
+        width: 80%;
         padding: 20px;
     }
 }

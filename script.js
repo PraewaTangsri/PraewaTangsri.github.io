@@ -13,14 +13,8 @@ async function loadImages() {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-
         // แปลง Response เป็น JSON object และเก็บในตัวแปร imagePaths
         imagePaths = await response.json();
-        console.log("Images loaded:", imagePaths);
-
-        // imagePaths.forEach(item => {
-        //     console.log(`Image path after load: ${item}`);
-        // });
 
     } catch (error) {
         console.error('Error fetching the JSON file:', error);

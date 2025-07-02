@@ -56,9 +56,9 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* @media screen and (max-width: 992px) {  
-    
+@media screen and (max-width: 992px) {  
+    #rewardSection {
+        width: 90%;
+        padding: 20px;
+    }
 }
-@media screen and (max-width: 576px) {
-
-} */
